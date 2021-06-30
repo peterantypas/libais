@@ -14,7 +14,7 @@ Introduction
 .. image:: https://badge.fury.io/py/libais.svg
     :target: http://badge.fury.io/py/libais
 
-Library for decoding maritime Automatic Identification System messages.
+Library for decoding maritime Automatic Identification System messages. Forked from original POSIX-oriented version to optimize for embedded platforms as much as possible, starting with removal of all c++ <ostream> dependencies (severe code bloat).
 
 See Also
 ========
